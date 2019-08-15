@@ -4,7 +4,7 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="C:/Users/sohai/Desktop/Coding projects/opencv/build/java/opencv-400.jar">
 		<attributes>
-			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="C:/Users/sohai/Desktop/opencv/build/java/x64"/>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="C:/Users/sohai/Desktop/Coding projects/opencv/build/java/x64"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="output" path="bin"/>
