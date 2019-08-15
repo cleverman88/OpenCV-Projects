@@ -15,8 +15,8 @@ import javax.swing.JPanel;
 
 public class DetectCircles extends JPanel{
 	//Change these to find different sized circles
-	final static int LB = 30;
-	final static int UB = 50;
+	final static int LB = 20;
+	final static int UB = 20;
 
 	//Change this to find stuff that are not as circular
 	final static int HOWCIRCLE = 100;
@@ -26,7 +26,7 @@ public class DetectCircles extends JPanel{
 	BufferedImage binary = null;
 
 	public DetectCircles() throws IOException {
-		image = ImageIO.read((new File("download.jpg")));
+		image = ImageIO.read((new File("Images/Fingerkreis.jpg")));
 		binary = new BufferedImage(image.getWidth(), image.getHeight(), BufferedImage.TYPE_BYTE_BINARY);
 		Graphics2D g2d = binary.createGraphics();
 		g2d.drawImage(image, 0, 0, this);
@@ -37,7 +37,7 @@ public class DetectCircles extends JPanel{
 	@Override
 	public void paintComponent(Graphics g){
 		super.paintComponent(g);
-		g.drawImage(image,0,0,this);
+		g.drawImage(binary,0,0,this);
 
 		boolean array[][] = new boolean[image.getHeight()][image.getWidth()];
 
@@ -49,7 +49,7 @@ public class DetectCircles extends JPanel{
 						gv(binary, j-1, i+1)+gv(binary, j, i+1)+gv(binary, j+1, i+1);
 				float val = gv(binary, j, i)*9 - sum;
 				if (val > 0) {
-					//g.setColor(Color.RED);
+					g.setColor(Color.RED);
 					array[i][j] = true;
 					g.drawRect(j, i, 1, 1);
 				}
