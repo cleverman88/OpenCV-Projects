@@ -1,7 +1,10 @@
-# OpenCV-Projects
-A few open cv projects
+# OpenCV-Projects/Projects involving computer vision
+A few open cv projects / computer vision projects
 
 Open CV projects include
 
-- Green detection software
-- Face detection software
+- Live green detection software
+- Live face detection software
+
+Projects not involving OpenCV
+- Circle detection software from image
