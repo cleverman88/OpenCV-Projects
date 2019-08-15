@@ -12,13 +12,13 @@ Projects not involving OpenCV
 
 # Circle Detection Process
 - Takes an initial image as follows
-<br>![Fingerkreis.jpg](https://raw.githubusercontent.com/cleverman88/OpenCV-Projects/master/OpenCV%20Projects/Fingerkreis.jpg?token=AKPYHNSOO3G5C2ZLBSUANPS5KV6KG)<br />
+<br>![Fingerkreis.jpg](https://github.com/cleverman88/OpenCV-Projects/blob/master/OpenCV%20Projects/Fingerkreis.jpg?raw=true)<br />
 - Converts it to its binary type image
-<br>![Fingerkreis.jpg](https://raw.githubusercontent.com/cleverman88/OpenCV-Projects/master/OpenCV%20Projects/BinaryImage.png?token=AKPYHNVSD7CWRDZ4B4ZFJ3K5KV7HM)<br />
+<br>![Fingerkreis.jpg](https://github.com/cleverman88/OpenCV-Projects/blob/master/OpenCV%20Projects/BinaryImage.png?raw=true)<br />
 - Simple algorithm in order to identify the edges of the picture
-<br>![Fingerkreis.jpg](https://raw.githubusercontent.com/cleverman88/OpenCV-Projects/master/OpenCV%20Projects/EdgeDetection.png?token=AKPYHNWHOMV6U36FGOKDUW25KV7KS)<br />
+<br>![Fingerkreis.jpg](https://github.com/cleverman88/OpenCV-Projects/blob/master/OpenCV%20Projects/EdgeDetection.png?raw=true)<br />
 - After that it looks around the raduis for coloured pixles and if a certain percentage of them are coloured it assumes it's a circle
-<br>![Fingerkreis.jpg](https://raw.githubusercontent.com/cleverman88/OpenCV-Projects/master/OpenCV%20Projects/Circle.png?token=AKPYHNTZEOFPJ7LLHFNXNKK5KV7KK)<br />
+<br>![Fingerkreis.jpg](https://github.com/cleverman88/OpenCV-Projects/blob/master/OpenCV%20Projects/Circle.png?raw=true)<br />
 ------------------------------------------------------------------------------------------------------------------------------------------
 
 
